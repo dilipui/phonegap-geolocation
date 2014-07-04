@@ -25,9 +25,7 @@ h1,ul,li
 	width: 100%;
 	z-index: 1;
 }
-#subheader
-{ display: none; }
-
+#subheader { display: none; }
 #footer
 { 
 	display: none;
@@ -122,12 +120,11 @@ blockquote
 	position: relative;
 	text-shadow: #FFFFFF 0px 1px 0px;
 }
-blockquote
-p { 
+blockquote p { 
 	padding: 5px 0px;
 	font-size: 0.8em;
 }
-blockquote::before { 
+blockquote ::before { 
 	font-style: normal;
 	content: '\201C';
 	font-size: 400%;
@@ -184,7 +181,8 @@ a.btn.trois {
 	width: 75%;
 	margin: 20px auto;
 }
-#deviceinfo tr th.alt, #deviceinfo tr td.alt { 
+#deviceinfo tr th.alt,
+#deviceinfo tr td.alt { 
 	text-align: left;
 }
 #deviceinfo, th, td { 
@@ -198,7 +196,8 @@ a.btn.trois {
 	color: #f0f0f0;
 	height: 1.3em;
 }
-#deviceinfo td, #deviceinfo th { 
+#deviceinfo td,
+#deviceinfo th { 
 	padding: 3px 7px 2px 7px;
 	vertical-align: bottom;
 	text-align: right;
@@ -237,8 +236,7 @@ dl > dd{
 	display: none;
 	margin-bottom: 0.6em;
 }
-.api-div
-h4 { 
+.api-div h4 { 
 	display: block; 
 	font-size: 0.8em;
 	font-weight: normal; 
@@ -270,6 +268,7 @@ h4 {
 	display: none;
 	margin: 1.0em auto; 
 }
+
 @media screen and (max-width: 320px) and (orientation:portrait) { 
 	/* #header h1 { color: #f00;  For TESTING */ 
 
@@ -307,6 +306,7 @@ h4 {
 		width: 90%;
 	}
 }
+
 @media all and (min-width: 800px){ 
 	/* #header h1 { color: #0f0;  FOR TESTING */
 
